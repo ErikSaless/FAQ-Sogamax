@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     animation: gradientBG 10s ease infinite;
+    background: linear-gradient(120deg, #2370a3, #6dd5fa);
+}
+
+.conteiner_login {
+    background: white;
+    width: 370px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.7s ; 
+}
+
+.conteiner_login:hover{
+     box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.img1_logo img {
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+.credenciais {
+    width: 100%;
+}
+
+.credenciais input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.9s;
+}
+
+.credenciais input:hover {
+    border-color: #2980b9;
+}
+
+input{
+        transition: 0.9s;
+}
+
+.credenciais input:hover::placeholder {
+    color: #ffffff;
+    transition: 0.9s;
+}
+
+
+.button1_enter {
+    width: 100%;
+}
+
+#enter {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #2980b9;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#enter:hover {
+    background: #1f6694;
+}
+
+.recovery {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.recovery a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #2980b9;
+}
+
+.recovery a:hover {
+    color: #1f6694;
+    font-weight: 415;
+}
+
+/* mediaquery */
