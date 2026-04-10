@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ SOGAMAX</title>
-    <link rel="stylesheet" href="page.html">
+    <link rel="stylesheet" href="server/css/page.css">
 </head>
-<body>
-   <div class="menu">
-     <div class="logo">
-      <img src="server/img/Sogamax-logo azul.png" alt=""> </div>
-      <p>Seu canal para pesquisa de soluçãoes rapidas</p>
 
-   </div>
+<body>
+    <div class="menu">
+        <div class="logo">
+            <img src="server/img/Sogamax-logo azul (1).png" id="btn-logo" alt="">
+            <img src="server/img/logo_mini.png" alt="" style="display: none;">
+            <p>Tire suas dúvidas em poucos passos.</p>
+        </div>
+
+        <ul>
+            <li><a href="" style="display: none;">Inicio</a></li>
+            <li><a href="">Crie uma FAQ</a></li>
+            <li><a href="">Pesquise por uma FAQ</a></li>
+            <li><a href="">Entre em contato com o T.I.</a></li>
+            <li><a href="">Annydesk</a></li>
+            <li><a href="">Admin</a></li>
+        </ul>
+
+        <br>
+        <button type="submit">Sair </button>
+    </div>
+    <div class="search-container">
+  <input 
+    type="text" 
+    id="search" 
+    placeholder="Pesquise sua dúvida..."
+    autocomplete="off"
+  />
+  <div id="resultados"></div>
+</div>
+
+
 </body>
+
 </html>
