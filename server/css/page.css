@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
 }
 
 
@@ -12,18 +13,21 @@ body {
     height: 100vh;
     display: flex;
     animation: gradientBG 10s ease infinite;
-    background: linear-gradient(120deg, #2370a3, #6dd5fa);
+    background: white;
+    
 }
 
 .menu{
-  background-color: aliceblue;
+  background: linear-gradient(120deg, #203a99, #415ad9);
   display: flex;
   flex-direction: column;
   width: 250px;
+  gap: 4px;
+  color: white;
 }
 
 .logo{
-  width: 250px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,11 +41,59 @@ body {
   width: 170px;
 }
 
+
+
 a{
   text-decoration: none;
-  color: black;
+  color: white;
+  font-size: 11.8px;
+  font-weight: 500;
+  transition: 333.2ms;
+}
+
+a:hover{
+  cursor: pointer;
+  font-size: 12.3px;
+  font-weight: 600;
 }
 
 li{
   list-style: none;
 }
+
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 15px;
+
+}
+
+.sair{
+  bottom: 0;
+  padding: 20px;
+  width: 250px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sair button{
+  position: fixed;
+  width: 79px;
+  height: 24px;
+  background-color: rgb(177, 43, 70);
+  font-weight: 500;
+  color: antiquewhite;
+  box-shadow: 20px;
+  border: none;
+  border-radius: 6px;
+  transition: 333ms;
+}
+
+button:hover{
+  cursor: pointer;
+  font-weight: 600;
+  background-color: crimson;
+}
+
+
