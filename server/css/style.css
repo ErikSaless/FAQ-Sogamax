@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     animation: gradientBG 10s ease infinite;
-    background: linear-gradient(120deg, #2370a3, #6dd5fa);
+    background: linear-gradient(120deg, #203a99, #3b5fe3);
 }
 
 .conteiner_login {
@@ -76,7 +76,7 @@ input{
     padding: 12px;
     border: none;
     border-radius: 6px;
-    background: #2980b9;
+    background: #203a99;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -84,7 +84,7 @@ input{
 }
 
 #enter:hover {
-    background: #1f6694;
+    background: rgb(28, 12, 132);
 }
 
 .recovery {
